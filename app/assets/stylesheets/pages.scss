@@ -1,0 +1,182 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*--------------------------------------- MAIN ---------------------------------------*/
+
+html {
+	background-image: url(../images/eiffel_tower.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+body {
+	margin: 0;
+}
+
+
+:target:before {
+	content: "";
+	display: block;
+	height: 40px;
+	margin: -40px 0 0;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/*--------------------------------------- NAVIGATION ---------------------------------------*/
+nav .burger {
+	display: none;
+}
+
+nav {
+	text-align: center;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: auto;
+	width: 100%;
+	box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.5)
+}
+
+nav a {
+	color: white;
+	display: block;
+}
+
+nav > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: center;
+}
+
+nav > ul > li {
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	color: rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+}
+
+nav > ul > li:hover {
+	background: #d5d5d5;
+}
+
+ul.drop-menu {
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	width: 100%;
+	padding: 0;
+}
+
+ul.drop-menu li {
+	background: #666;
+	height: 40px;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+ul.drop-menu li:hover {
+	background: #606060;
+}
+
+ul.drop-menu li a:last-child {
+	border-radius: 0px 0px 5px 5px;
+}
+
+ul.drop-menu li {
+	display: none;
+}
+
+li:hover > ul.drop-menu li {
+	display: block;
+}
+
+
+
+
+
+
+/*--------------------------------------- HOME PAGE ---------------------------------------*/
+
+
+.container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container h1 {
+	text-align: center;
+	color: white;
+	font-size: 5em;
+}
+
+/*--------------------------------------- ITINERARY ---------------------------------------*/
+hr {
+	margin: 0;
+}
+
+.wrapper {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 250px 1fr;
+	text-align: center;
+
+}
+
+/*----- .timeline -----*/
+.timeline {
+	background-color: #333;
+	text-align: left;
+}
+
+.timelinenav {
+	position: fixed;
+}
+
+.timeline a {
+	color: white;
+	text-decoration: none;
+}
+
+.timeline a:hover {
+	background-color: grey;
+}
+
+
+
+
+
+/*----- .activity -----*/
+.activity:nth-of-type(even) {
+	background: #aaa;
+}
+
+.activity h1 {
+	margin: 0;
+	padding: 1em;
+}
+
+.activity p  {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
