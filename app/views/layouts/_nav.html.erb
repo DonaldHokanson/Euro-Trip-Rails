@@ -1,7 +1,7 @@
 <nav>
 	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href="itinerary.html">Itinerary</a>
+		<li><%= link_to "Home", root_path %></li>
+		<li><%= link_to "Itinerary", itinerary_path %>
 			<ul class="drop-menu menu-2">
 				<a href="days/day1.html"><li>Day 1</li></a>
 				<a href="days/day2.html"><li>Day 2</li></a>
@@ -12,7 +12,7 @@
 				<a href="days/day7.html"><li>Day 7</li></a>
 			</ul>
 		</li>
-		<li><a href="gallery.html">Gallery</a>
+		<li><%= link_to "Gallery", gallery_path %>
 			<ul class="drop-menu menu-3">
 				<li>France</li>
 				<li>Germany</li>

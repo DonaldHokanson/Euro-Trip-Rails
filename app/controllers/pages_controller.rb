@@ -4,4 +4,8 @@ class PagesController < ApplicationController
 
   def itinerary
   end
+
+  def gallery
+  	
+  end
 end
