@@ -3,20 +3,20 @@
 		<li><%= link_to "Home", root_path %></li>
 		<li><%= link_to "Itinerary", itinerary_path %>
 			<ul class="drop-menu menu-2">
-				<a href="days/day1.html"><li>Day 1</li></a>
-				<a href="days/day2.html"><li>Day 2</li></a>
-				<a href="days/day3.html"><li>Day 3</li></a>
-				<a href="days/day4.html"><li>Day 4</li></a>
-				<a href="days/day5.html"><li>Day 5</li></a>
-				<a href="days/day6.html"><li>Day 6</li></a>
-				<a href="days/day7.html"><li>Day 7</li></a>
+				<li><%= link_to "Day 1", day1_path %></li>
+				<li><%= link_to "Day 2", day2_path %></li>
+				<li><%= link_to "Day 3", day3_path %></li>
+				<li><%= link_to "Day 4", day4_path %></li>
+				<li><%= link_to "Day 5", day5_path %></li>
+				<li><%= link_to "Day 6", day6_path %></li>
+				<li><%= link_to "Day 7", day7_path %></li>
 			</ul>
 		</li>
 		<li><%= link_to "Gallery", gallery_path %>
 			<ul class="drop-menu menu-3">
-				<li>France</li>
-				<li>Germany</li>
-				<li>Iceland</li>
+				<li><%= link_to 'France', france_path %></li>
+				<li><%= link_to 'Germany', germany_path %></li>
+				<li><%= link_to 'Iceland', iceland_path %></li>
 			</ul>
 		</li>
 	</ul>
