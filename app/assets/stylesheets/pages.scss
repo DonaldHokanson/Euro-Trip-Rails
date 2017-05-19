@@ -16,6 +16,10 @@ body {
 	margin: 0;
 }
 
+main {
+	margin-top: 40px
+}
+
 
 :target:before {
 	content: "";
@@ -31,6 +35,7 @@ a {
 
 
 /*--------------------------------------- NAVIGATION ---------------------------------------*/
+
 nav .burger {
 	display: none;
 }
@@ -56,7 +61,7 @@ nav > ul {
 	margin: 0;
 	background-color: #333;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 250px 1fr 1fr;
 	align-content: center;
 }
 
@@ -129,6 +134,7 @@ li:hover > ul.drop-menu li {
 }
 
 /*--------------------------------------- ITINERARY ---------------------------------------*/
+
 hr {
 	margin: 0;
 }
@@ -142,8 +148,9 @@ hr {
 }
 
 /*----- .timeline -----*/
+
 .timeline {
-	background-color: white;
+	background-color: grey;
 	text-align: left;
 }
 
@@ -165,6 +172,7 @@ hr {
 
 
 /*----- .activity -----*/
+
 .activity:nth-of-type(even) {
 	background: #aaa;
 }
