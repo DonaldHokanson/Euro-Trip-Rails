@@ -1,0 +1,89 @@
+@media (max-width: 1068px) {
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2.75em;
+}
+
+h3 {
+	font-size: 2.5em;
+}
+
+h4 {
+	font-size: 2.25em;
+}
+
+p {
+	font-size: 2em;
+}
+
+/*----------------------------------- NAVIGATION -----------------------------------*/
+nav .desktop {
+	display: none;
+}
+
+nav .burger {
+	display: block;
+}
+
+nav .burger i{
+	color: white;
+	padding: 15px;
+}
+
+nav > ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: center;
+}
+
+li:active > ul.drop-menu li {
+	display: block;
+}
+
+hr {
+	display: none;
+}
+
+.wrapper {
+	grid-template-columns: 1fr;
+	margin-top: 95px;
+}
+
+.timeline {
+	display: none;
+}
+
+.maps {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+
+
+
+.maps iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+}
