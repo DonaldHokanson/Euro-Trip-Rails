@@ -1,31 +1,40 @@
 <div class="timeline">
 	<div class="timelinenav">
 		<ul>
-			<li><a href="day1.html">Day 1 - USA/Iceland</a></li>
-			<li><a href="day2.html">Day 2 - Iceland/Frankfurt</a></li>
-			<li><a href="day3.html">Day 3 - Leipzig</a></li>
-			<ul>
-				<li><a href="#activity1">Breakfast</a></li>
-				<li><a href="#activity2">Frankfurt Bahnhof</a></li>
-				<li><a href="#activity3">Fulda Bahnhof</a></li>
-				<li><a href="#activity4">Leipzig Bahnhof</a></li>
-				<li><a href="#activity5">Travel to Hotel</a></li>
-				<li><a href="#activity6">Travel to Lunch</a></li>
-				<li><a href="#activity7">1:00pm - 2:00pm</a></li>
-				<li><a href="#activity8">2:00pm - 3:00pm</a></li>
-				<li><a href="#activity9">3:00pm - 4:00pm</a></li>
-				<li><a href="#activity10">4:00pm - 5:00pm</a></li>
-				<li><a href="#activity11">5:00pm - 6:00pm</a></li>
-				<li><a href="#activity12">6:00pm - 7:00pm</a></li>
-				<li><a href="#activity13">7:00pm - 8:00pm</a></li>
-				<li><a href="#activity14">8:00pm - 9:00pm</a></li>
-				<li><a href="#activity15">9:00pm - 10:00pm</a></li>
-				<li><a href="#activity16">10:00pm - 11:00pm</a></li>
-			</ul>
-			<li><a href="day4.html">Day 4 - Bacharach</a></li>
-			<li><a href="day5.html">Day 5 - Burgundy</a></li>
-			<li><a href="day6.html">Day 6 - Paris</a></li>
-			<li><a href="day7.html">Day 7 - Iceland</a></li>
+			<li><%= link_to "Day 1 - USA/Iceland", day1_path %></li>
+				<ul>
+					<li><a href="#activity1">Travel to Airport</a></li>
+					<li><a href="#activity2">Arrive at Airport</a></li>
+					<li><a href="#activity3">Fly to Iceland</a></li>
+				</ul>
+			<li><%= link_to "Day 2 - Iceland/Frankfurt", day2_path %></li>
+				<ul>
+					<li><a href="#activity1">Fly to Frankfurt</a></li>
+					<li><a href="#activity2">Travel to Hotel</a></li>
+				</ul>
+			<li><%= link_to "Day 3 - Leipzig", day3_path %></li>
+				<ul>
+					<li><a href="#activity1">Breakfast</a></li>
+					<li><a href="#activity2">Frankfurt Bahnhof</a></li>
+					<li><a href="#activity3">Fulda Bahnhof</a></li>
+					<li><a href="#activity4">Leipzig Bahnhof</a></li>
+					<li><a href="#activity5">Travel to Hotel</a></li>
+					<li><a href="#activity6">Travel to Lunch</a></li>
+					<li><a href="#activity7">Travel to Monument</a></li>
+					<li><a href="#activity8">2:00pm - 3:00pm</a></li>
+					<li><a href="#activity9">3:00pm - 4:00pm</a></li>
+					<li><a href="#activity10">4:00pm - 5:00pm</a></li>
+					<li><a href="#activity11">5:00pm - 6:00pm</a></li>
+					<li><a href="#activity12">6:00pm - 7:00pm</a></li>
+					<li><a href="#activity13">7:00pm - 8:00pm</a></li>
+					<li><a href="#activity14">8:00pm - 9:00pm</a></li>
+					<li><a href="#activity15">9:00pm - 10:00pm</a></li>
+					<li><a href="#activity16">10:00pm - 11:00pm</a></li>
+				</ul>
+			<li><%= link_to "Day 4 - Bacharach", day4_path %></li>
+			<li><%= link_to "Day 5 - Burgundy", day5_path %></li>
+			<li><%= link_to "Day 6 - Paris", day6_path %></li>
+			<li><%= link_to "Day 7 - Iceland", day7_path %></li>
 		</ul>
 	</div><!--.timelinenav-->
 </div><!--.timeline-->

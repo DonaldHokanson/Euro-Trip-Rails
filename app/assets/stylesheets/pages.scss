@@ -5,12 +5,10 @@
 /*--------------------------------------- MAIN ---------------------------------------*/
 
 html {
-	background: #555;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-attachment: fixed;
+	background: #ccc;
 }
+
+
 
 body {
 	margin: 0;
@@ -20,13 +18,6 @@ main {
 	margin-top: 40px
 }
 
-
-:target:before {
-	content: "";
-	display: block;
-	height: 40px;
-	margin: -40px 0 0;
-}
 
 a {
 	text-decoration: none;
@@ -114,7 +105,13 @@ li:hover > ul.drop-menu li {
 
 
 /*--------------------------------------- HOME PAGE ---------------------------------------*/
-
+.home {
+	background-image: url('/assets/eiffel_tower.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
 
 .container {
 	position: absolute;
@@ -133,58 +130,6 @@ li:hover > ul.drop-menu li {
 	font-size: 5em;
 }
 
-/*--------------------------------------- ITINERARY ---------------------------------------*/
-
-hr {
-	margin: 0;
-}
-
-.wrapper {
-	margin-top: 40px;
-	display: grid;
-	grid-template-columns: 250px 1fr;
-	text-align: center;
-
-}
-
-/*----- .timeline -----*/
-
-.timeline {
-	background-color: grey;
-	text-align: left;
-}
-
-.timelinenav {
-	position: fixed;
-}
-
-.timeline a {
-	color: white;
-	text-decoration: none;
-}
-
-.timeline a:hover {
-	background-color: grey;
-}
 
 
 
-
-
-/*----- .activity -----*/
-
-.activity:nth-of-type(even) {
-	background: #aaa;
-}
-
-.activity h1 {
-	margin: 0;
-	padding: 1em;
-}
-
-.activity p  {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 1em;
-	padding-bottom: 1em;
-}
