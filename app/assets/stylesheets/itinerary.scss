@@ -13,6 +13,20 @@ hr {
 
 }
 
+.itinerary-main > ul {
+	list-style: none;
+	padding: 0;
+}
+	li:hover {
+		background-color: #333;
+	}
+		h2 {
+			margin-top: 0;
+			padding-top: 1em;
+		}
+
+
+
 .itinerary
 	h1 {
 		padding-bottom: 0;

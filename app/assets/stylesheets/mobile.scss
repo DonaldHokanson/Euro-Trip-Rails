@@ -29,43 +29,71 @@ p {
 	display: block !important;
 }
 
-.burger-nav {
-	display: block;
+.mobile img {
 	height: 5em;
+	width: 5em;
+}
+
+.menu {
 	width: 100%;
 	background-color: #555;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: auto;
+}
+
+.menu a {
+	padding: 1em;
+	float: left;
 }
 
 .burger-nav img {
 	display: block;
-	height: 3em;
-	padding: 1em;
 }
 
-.mobile ul {
+.mobile > ul {
+	margin-top: 7em;
+	display: none;
+}
+.mobile > ul.open {
 	list-style: none;
 	display: grid;
+	width: 100%;
 	grid-template-columns: 1fr 1fr 1fr;
 	align-content: center;
 	padding: 0;
+	background-color: #777;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: auto;
 }
+
+.mobile > ul > li > a > p {
+	padding: 0;
+}
+
 
 .mobile ul li {
 	text-align: center;
 }
 
-hr {
-	display: none;
-}
+
 
 
 
 
 
 /*----------------------------------- CONTENT -----------------------------------*/
+hr {
+	display: none;
+}
+
 
 .wrapper {
 	grid-template-columns: 1fr;
+	margin-top: 7em;
 }
 
 .timeline {

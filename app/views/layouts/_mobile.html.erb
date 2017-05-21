@@ -1,24 +1,27 @@
 <nav class="mobile">
-	<a class="burger-nav"><img src="assets/menu.svg"></a>
+	<div class="menu">
+		<a class="burger-nav"><img src="assets/menu.svg"></a>
+	</div>
 	<ul>
-		<li><img src="assets/home.svg" width="32px" height="32px"><%= link_to "Home", root_path %></li>
-		<li><img src="assets/itinerary.svg"><%= link_to "Itinerary", itinerary_path %>
-			<ul class="sub-menu">
-				<li><%= link_to "Day 1", day1_path %></li>
-				<li><%= link_to "Day 2", day2_path %></li>
-				<li><%= link_to "Day 3", day3_path %></li>
-				<li><%= link_to "Day 4", day4_path %></li>
-				<li><%= link_to "Day 5", day5_path %></li>
-				<li><%= link_to "Day 6", day6_path %></li>
-				<li><%= link_to "Day 7", day7_path %></li>
-			</ul>
+		<li>
+		<%= link_to root_path do %>
+			<img src="assets/home.svg">
+			<p>Home</p>
+		<% end %>
 		</li>
-		<li><img src="assets/gallery.svg" width="32px" height="32px"><%= link_to "Gallery", gallery_path %>
-			<ul class="sub-menu">
-				<li><%= link_to 'France', france_path %></li>
-				<li><%= link_to 'Germany', germany_path %></li>
-				<li><%= link_to 'Iceland', iceland_path %></li>
-			</ul>
+
+		<li>
+		<%= link_to itinerary_path do %>
+			<img src="assets/itinerary.svg">
+			<p>Itinerary</p>
+		<% end %>
+		</li>
+
+		<li>
+		<%= link_to gallery_path do %>
+			<img src="assets/gallery.svg">
+			<p>Gallery</p>
+		<% end %>
 		</li>
 	</ul>
 </nav>
