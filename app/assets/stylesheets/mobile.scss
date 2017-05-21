@@ -27,32 +27,32 @@ p {
 
 .mobile {
 	display: block !important;
-	height: 60px;
-	background-color: grey;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: auto;
-	width: 100%;
-	box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.5)
 }
 
-.mobile > ul {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		background-color: #333;
-		align-content: center;
-	}
+.burger-nav {
+	display: block;
+	height: 5em;
+	width: 100%;
+	background-color: #555;
+}
 
-		li {
-			height: 60px;
-		}
+.burger-nav img {
+	display: block;
+	height: 3em;
+	padding: 1em;
+}
 
-	a {
-		color: white;
-		display: block;
-	}
+.mobile ul {
+	list-style: none;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-content: center;
+	padding: 0;
+}
+
+.mobile ul li {
+	text-align: center;
+}
 
 hr {
 	display: none;

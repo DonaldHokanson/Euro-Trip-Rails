@@ -1,9 +1,9 @@
 <nav class="mobile">
-	<a href="#"><img src="assets/menu.svg"></a>
+	<a class="burger-nav"><img src="assets/menu.svg"></a>
 	<ul>
-		<li><%= link_to "Home", root_path %></li>
-		<li><%= link_to "Itinerary", itinerary_path %>
-			<ul class="drop-menu menu-2">
+		<li><img src="assets/home.svg" width="32px" height="32px"><%= link_to "Home", root_path %></li>
+		<li><img src="assets/itinerary.svg"><%= link_to "Itinerary", itinerary_path %>
+			<ul class="sub-menu">
 				<li><%= link_to "Day 1", day1_path %></li>
 				<li><%= link_to "Day 2", day2_path %></li>
 				<li><%= link_to "Day 3", day3_path %></li>
@@ -13,8 +13,8 @@
 				<li><%= link_to "Day 7", day7_path %></li>
 			</ul>
 		</li>
-		<li><%= link_to "Gallery", gallery_path %>
-			<ul class="drop-menu menu-3">
+		<li><img src="assets/gallery.svg" width="32px" height="32px"><%= link_to "Gallery", gallery_path %>
+			<ul class="sub-menu">
 				<li><%= link_to 'France', france_path %></li>
 				<li><%= link_to 'Germany', germany_path %></li>
 				<li><%= link_to 'Iceland', iceland_path %></li>
