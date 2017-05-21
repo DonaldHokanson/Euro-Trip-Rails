@@ -10,3 +10,4 @@ main = function() {
 
 $(document).ready(main);
 $(document).on('page:load', main);
+$(document).on('turbolinks:load', main);
