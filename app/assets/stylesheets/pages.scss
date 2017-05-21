@@ -9,29 +9,25 @@ html {
 }
 
 
-
 body {
 	margin: 0;
 }
-
-main {
-	margin-top: 40px
-}
-
 
 a {
 	text-decoration: none;
 	color: black;
 }
 
+header {
+	margin-bottom: 40px;
+}
 
 /*--------------------------------------- NAVIGATION ---------------------------------------*/
-
-nav .burger {
+.mobile {
 	display: none;
 }
 
-nav {
+.desktop {
 	text-align: center;
 	position: fixed;
 	z-index: 1;
@@ -41,12 +37,12 @@ nav {
 	box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.5)
 }
 
-nav a {
-	color: white;
-	display: block;
-}
+	a {
+		color: white;
+		display: block;
+	}
 
-nav > ul {
+.desktop > ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -56,7 +52,7 @@ nav > ul {
 	align-content: center;
 }
 
-nav > ul > li {
+.desktop > ul > li {
 	float: left;
 	height: 40px;
 	line-height: 40px;
@@ -65,11 +61,11 @@ nav > ul > li {
 	cursor: pointer;
 }
 
-nav > ul > li:hover {
+.desktop > ul > li:hover {
 	background: #d5d5d5;
 }
 
-ul.drop-menu {
+.desktop ul.drop-menu {
 	position: absolute;
 	top: 100%;
 	left: 0%;
@@ -77,25 +73,25 @@ ul.drop-menu {
 	padding: 0;
 }
 
-ul.drop-menu li {
+.desktop ul.drop-menu li {
 	background: #666;
 	height: 40px;
 	color: rgba(255, 255, 255, 0.7);
 }
 
-ul.drop-menu li:hover {
+.desktop ul.drop-menu li:hover {
 	background: #606060;
 }
 
-ul.drop-menu li a:last-child {
+.desktop ul.drop-menu li a:last-child {
 	border-radius: 0px 0px 5px 5px;
 }
 
-ul.drop-menu li {
+.desktop ul.drop-menu li {
 	display: none;
 }
 
-li:hover > ul.drop-menu li {
+.desktop li:hover > ul.drop-menu li {
 	display: block;
 }
 
