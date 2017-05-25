@@ -1,6 +1,6 @@
 .timeline {
 	text-align: left;
-	background-color: grey;
+	background-color: #343838;
 }
 
 .timelinenav {
@@ -13,5 +13,13 @@
 }
 
 .timeline a:hover {
-	color: #ccc;
+	color: #00DFFC;
+}
+
+//.timelinenav > ul > li > ul {
+//	display: none;
+//}
+
+.timelinenav > ul > li > ul.open {
+	display: block;
 }

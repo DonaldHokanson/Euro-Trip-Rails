@@ -2,10 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* Color Palette
+343838
+005F6B
+008C9E
+00B4CC
+00DFFC
+*/
+
 /*--------------------------------------- MAIN ---------------------------------------*/
 
 html {
-	background: #ccc;
+	background: #008C9E;
 }
 
 
@@ -62,7 +70,7 @@ header {
 }
 
 .desktop > ul > li:hover {
-	background: #d5d5d5;
+	background: #00B4CC;
 }
 
 .desktop ul.drop-menu {
@@ -74,13 +82,13 @@ header {
 }
 
 .desktop ul.drop-menu li {
-	background: #666;
+	background: #005F6B;
 	height: 40px;
 	color: rgba(255, 255, 255, 0.7);
 }
 
 .desktop ul.drop-menu li:hover {
-	background: #606060;
+	background: #343838;
 }
 
 .desktop ul.drop-menu li a:last-child {
