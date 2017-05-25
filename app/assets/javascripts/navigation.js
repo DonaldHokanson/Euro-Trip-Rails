@@ -5,6 +5,11 @@ main = function() {
 		$('.mobile > ul').toggleClass('open');
 	});
 
+	$('.sidenav > a').on("click", function(){
+		$('.sidenav > ul').toggleClass('open');
+	});
+
+
 };
 
 

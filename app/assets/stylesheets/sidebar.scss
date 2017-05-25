@@ -16,10 +16,10 @@
 	color: #00DFFC;
 }
 
-//.timelinenav > ul > li > ul {
-//	display: none;
-//}
+.sidenav > ul {
+	display: none;
+}
 
-.timelinenav > ul > li > ul.open {
+.sidenav > ul.open {
 	display: block;
 }
