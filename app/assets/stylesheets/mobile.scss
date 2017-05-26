@@ -49,6 +49,10 @@ p {
 	float: left;
 }
 
+.menu h2 {
+	padding-left: 3em;
+}
+
 .burger-nav img {
 	display: block;
 }
@@ -105,6 +109,9 @@ hr {
 	margin-top: 7em;
 }
 
+.activity > ul > li {
+	font-size: 2em;
+}
 
 .maps {
 	overflow: hidden;
