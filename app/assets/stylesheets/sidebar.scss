@@ -7,6 +7,16 @@
 	position: fixed;
 }
 
+.timelinenav > ul {
+		padding: 1em;
+	}
+
+.timelinenav > ul > ul > li {
+	padding: 1em;
+
+}
+
+
 .timeline a {
 	color: white;
 	text-decoration: none;
@@ -15,4 +25,6 @@
 .timeline a:hover {
 	color: #00DFFC;
 }
+
+
 

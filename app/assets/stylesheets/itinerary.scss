@@ -1,5 +1,6 @@
 /*--------------------------------------- ITINERARY ---------------------------------------*/
 
+
 hr {
 	margin: 0;
 }
@@ -8,10 +9,10 @@ hr {
 	display: grid;
 	height: 100vh;
 	grid-template-columns: 300px 1fr;
-	grid-template-rows: 1fr;
+	grid-template-rows: 2fr;
 	text-align: center;
-
 }
+
 
 .itinerary-main {
 	text-align: center;
@@ -24,15 +25,14 @@ hr {
 	list-style: none;
 	padding: 0;
 }
-	li:hover {
-		background-color: #343838;
+	h2 {
+		margin-top: 0;
+		padding-top: 1em;
 	}
-		h2 {
-			margin-top: 0;
-			padding-top: 1em;
-		}
 
-
+.itinerary-main > ul > li:hover {
+	background-color: #343838;
+}
 
 .itinerary
 	h1 {
@@ -61,4 +61,9 @@ hr {
 		margin-bottom: 0;
 		padding-top: 1em;
 		padding-bottom: 1em;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
 	}
