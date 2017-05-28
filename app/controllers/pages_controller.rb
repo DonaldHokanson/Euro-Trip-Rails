@@ -27,6 +27,9 @@ class PagesController < ApplicationController
   def day7
   end
 
+  def day8
+  end
+
   def gallery
   end
 

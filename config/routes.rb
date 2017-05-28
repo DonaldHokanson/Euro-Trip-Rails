@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 		get 'day5' => 'pages#day5'
 		get 'day6' => 'pages#day6'
 		get 'day7' => 'pages#day7'
+		get 'day8' => 'pages#day8'
 
 	get 'gallery' => 'pages#gallery'
 		get 'france' => 'pages#france'
